@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.header a {
+    padding: 10px 20px;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+
+.header a:not(:last-child) {
+    margin-right: 10px;
+}
